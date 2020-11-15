@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(59, 105, 59);
+    padding-top: 20px;
+}
+
+.col-md h2 {
+    box-shadow:4px 4px rgba(0,0,0,0.30), 7px 7px rgba(0,0,0,0.22);
+    border: solid black 1px;
+}
+
+.card {
+    width: 120px;
+    height: 160px;
+    background-color: rgb(255, 240, 240);
+    border-radius: 15px;
+    border: solid lightgray 3px;
+    box-shadow:4px 4px rgba(0,0,0,0.30), 7px 7px rgba(0,0,0,0.22);
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.cardHeader span {
+    font-size: 25px;
+}
+
+.cardBody span {
+    font-size: 50px;
+}
+
+.cardFooter span {
+    font-size: 25px;
+    transform: rotate(180deg);
+    float: right;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
+}
